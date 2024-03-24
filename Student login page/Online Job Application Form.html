@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        legend{
+            background: linear-gradient(90deg,rgb(2, 55, 2),rgb(66, 4, 4));
+            color: yellow;
+            border: 4px solid black;
+            border-radius: 0px 20px;
+            padding: 5px 50px;
+            margin-left: 100px;
+        }
+        form{
+            background-color: lightgreen;
+            background-image: url(image2.jpg);
+            color: black;
+        }
+        button{
+            background: linear-gradient(90deg,rgb(2, 55, 2),rgb(66, 4, 4));
+            border-radius: 0px 20px;
+            color: yellow;
+            padding: 10px 20px;
+            margin: 50px;
+        }
+        input{
+            border-radius: 0px 10px;
+        }
+        label{
+            border-radius: 0px 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend><b>Personal Informaton</b></legend>
+            <table width="100%">
+                <tr>                     
+                    <td><label for="">First Name</label></td>
+                    <td><input type="text"></td>
+                    <td><label for="">Middle Name</label></td>
+                    <td><input type="text"></td>
+                    <td><label for="">Last Name</label></td>
+                    <td><input type="text"></td>
+                </tr>      
+                <tr>
+                    <td><label for="">Father's Name</label></td>
+                    <td><input type="text"></td>
+                    <td><label for="">Mother's Name</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Current Address</label></td>
+                    <td><textarea name="" id="" cols="30" rows="5"></textarea></td>
+                    <td><label for="">Present Address</label></td>
+                    <td><textarea name="" id="" cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="">Phone Number</label></td>
+                </tr>
+                <tr>
+                    <td><label for="">Landline Number</label></td>
+                    <td><input type="number"></td>
+                    <td><label for="">Mobile Number</label></td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Date Of Birth</label></td>
+                    <td><input type="date"></td>
+                    <td><label for="">Place Of Birth</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Select Gender</label></td>
+                    <td><input type="radio" id="one">MALE</td>
+                    <td><input type="radio" id="one">FEMALE</td>
+                </tr>
+                <tr>
+                    <td><label for="">Highest Qualification</label></td>
+                    <td><input type="text"></td>
+                    <td><label for="">Year Of Passing</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label for=""></label>Languages Knows</td>
+                    <td><input type="checkbox" name="" id="" >Hindi</input></td>
+                    <td><input type="checkbox" name="" id="">Eenglish</input></td>
+                    <td><input type="checkbox" name="" id="">Odia</input></td>    
+                    <td><input type="checkbox" name="" id="">Tamil</input></td>
+                </tr>
+                <tr>
+                    <td><label for=""></label>Select your Hobbies</td>
+                    <td><input type="checkbox" name="" id="" >Eating</input></td>
+                    <td><input type="checkbox" name="" id="">Cooking</input></td>
+                    <td><input type="checkbox" name="" id="">Sleeping</input></td>    
+                    <td><input type="checkbox" name="" id="">cooding</input></td>
+                </tr>
+                <tr>
+                    <td><label for="">About Yourself</label></td>
+                    <td><textarea name="" id="" cols="30" rows="4"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="">Nationality</label></td>
+                    <td><select name="" id="">
+                        <option value="">American</option>
+                        <option value="">Indian</option>
+                        <option value="">uk</option>
+                        <option value="">Srilanka</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Aadhar card Number</label></td>
+                    <td><input type="text"></td>
+                    <td><label for="">PANCARD Number</label></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend><b>Education Details</b></legend>
+            <table width="100%">
+                <tr>
+                    <td><label for="">SNO</label></td>
+                    <td><label for="">Qualification</label></td>
+                    <td><label for="">Institute/University</label></td>
+                    <td><label for="">Year of passing</label></td>
+                    <td><label for="">Marks(%)</label></td>
+                </tr>
+                <tr>
+                    <td><label for="">1.</label></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="month"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">2.</label></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="month"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">3.</label></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="month"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend><b>Work Experiance</b></legend>
+            <table width="100%">
+                <tr>
+                    <td><label for="">SNO</label></td>
+                    <td><label for="">Company</label></td>
+                    <td><label for="">Works/Roles</label></td>
+                    <td><label for="">From Date</label></td>
+                    <td><label for="">To Date</label></td>
+                </tr>
+                <tr>
+                    <td><label for="">1.</label></td>
+                    <td><textarea name="" id="" cols="30" rows="3"></textarea></td>
+                    <td><textarea name="" id="" cols="30" rows="3"></textarea></td>
+                    <td><input type="date"></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="">2.</label></td>
+                    <td><textarea name="" id="" cols="30" rows="3"></textarea></td>
+                    <td><textarea name="" id="" cols="30" rows="3"></textarea></td>
+                    <td><input type="date"></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="">3.</label></td>
+                    <td><textarea name="" id="" cols="30" rows="3"></textarea></td>
+                    <td><textarea name="" id="" cols="30" rows="3"></textarea></td>3
+                    <td><input type="date"></td>
+                    <td><input type="date"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend><b>Other Details</b></legend>
+            <table width="100%">
+                <tr>
+                    <td><label for="">JobType</label></td>
+                    <td><input type="radio" id="one">Permanent</td>
+                    <td><input type="radio" id="one">Contract</td>
+                    <td><input type="radio" id="one">others</td>
+                </tr>
+                <tr>
+                    <td><label for="">Date of joining</label></td>
+                    <td><input type="date"></td>
+                    <td><label for="">Time of joining</label></td>
+                    <td><input type="time"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Preferred Job Location</label></td>
+                    <td><input type="radio" id="one">Hydrabad</td>
+                    <td><input type="radio" id="one">Bangalore</td>
+                    <td><input type="radio" id="one">Deli</td>
+                </tr>
+                <tr>
+                    <td><label for="">Willing To Relocate to Hydrabad ?</label></td>
+                    <td></td>
+                    <td><input type="radio" id="one">yes</td>
+                    <td><input type="radio" id="one">No</td>
+                </tr><br>
+                <tr><td><input type="checkbox">I am here declaring that all the above mentioned information is true as per my knowledge..</td></tr>
+
+                <tr >
+                    <td  colspan="6" align="center"><button>SUBMIT</button> <button>RESET</button></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

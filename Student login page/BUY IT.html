@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUY IT FORM</title>
+    <link rel="stylesheet" href="../FONT/fontawesome-free-6.5.1-web/css/all.css">
+    <style>
+         *{
+            margin: 0px;
+        }
+        td{
+            background-color: rgb(99, 247, 54);
+            border-radius: 4px;
+            border: 2px solid white;
+            text-align: left;
+            width: 100%;
+            padding: 10px 30px;
+        }
+        fieldset{
+            top: 10PX;
+            left: 300px;
+            width: 350px;
+            position: relative;
+            background-color: aquamarine;
+            text-align: left;
+            padding: 20px ;
+        }
+        table{
+            
+            height: 45px;
+            width: 100%;
+            /* text-align: center; */
+        }
+        input{
+            border-radius: 3px;
+            border: 0px white;
+        }
+        label{
+            padding: 5px 10px;
+        }
+        button{
+            border-radius: 40px;
+            border: 0px white;
+            background-color: black;
+            color: white;
+            padding: 3px 30px;
+            align-content: center;
+        }
+
+        
+    </style>
+    
+</head>
+<body>
+    <form action="">
+       
+        <fieldset >
+            <!-- STAPE 1 -->
+
+            <h4> Step 1: Your details</h4>
+            <table>
+                <tr>
+                    <td><label for="">NAME</label>
+                    <input type="text" placeholder="First and Last Name"></td>
+                </tr>
+            </table>
+            <table >
+                <tr>
+                    <td>
+                        <label for="">EMAIL</label>
+                        <input type="email" placeholder="example@domain.com">
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Phone</label>
+                        <input type="number" placeholder="Eg. +447534567890">
+                    </td>
+                </tr>
+            </table>
+
+             <!-- STAPE 2 -->
+
+            <h4> Step 2: Delivery address</h4>
+            <table>
+                <tr>
+                    <td><label for="">address</label>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Phost code</label>
+                        <input type="number">
+                    </td>
+                </tr>
+            </table>
+            <table >
+                <tr>
+                    <td>
+                        <label for="">Phone</label>
+                        <input type="number" placeholder="Eg. +447534567890">
+                    </td>
+                </tr>
+            </table>
+
+            <!-- STAPE 3 -->
+
+            <h4> Step 3: Card Details</h4>
+            <table>
+                <tr>
+                    <td>
+                        <label  text for="">Card type</label><br>
+                        <input type="radio" id="visa" name="fav_language"><i class="fa-brands fa-cc-visa"></i>visa</input>
+                        <input type="radio" id="Amex" name="fav_language"><i class="fa-brands fa-cc-amex"></i>Amex</input>
+                        <input type="radio" id="Mastercard" name="fav_language"><i class="fa-brands fa-cc-mastercard" style="color: #9c2638;"></i>Mastercard</input>
+                    </td>
+                    
+                </tr>
+            </table>
+              <table>
+                <tr>
+                    <td>
+                        <label for="">Card Number</label>
+                        <input type="number">
+                    </td>    
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Security code</label>
+                        <input type="number"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Name on Card</label>
+                        <input type="number" placeholder="Exact name ds on the card">
+                    </td>
+                </tr>
+            </table >
+
+            <td align="center"><BUTTon >BUY IT!</BUTTon></td>
+            
+        </fieldset>
+    </form>
+    
+</body>
+</html>
